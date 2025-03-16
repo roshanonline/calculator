@@ -43,7 +43,7 @@ export default function Calculator() {
     };
 
     return (
-        <div className="calculator">
+        <div className="Calculator">
             <input type="text" value={expression} onChange={e => setExpression(e.target.value)} />
             <button onClick={handleCalculate}>Calculate</button>
             <p>Result: {result}</p>
